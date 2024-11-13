@@ -1,4 +1,4 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {};
 
-export default nextConfig({ base: "/{numerorum}", plugins: [React()] });
+export default nextConfig({ base: "/{numerorum}", plugins: [react()] });
