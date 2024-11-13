@@ -1,7 +1,8 @@
 export default function Admin() {
   return (
     <>
-      <h1>Admin</h1>
+      <h1>Adminnnn</h1>
+      <div>greta tumberg</div>
     </>
   );
 }
