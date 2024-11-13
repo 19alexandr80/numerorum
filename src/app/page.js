@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 import Footer from "../component/Footer";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -17,7 +18,11 @@ export default function Home() {
         />
         <h1>NUMERORUM</h1>
 
-        <div className={styles.ctas}></div>
+        <div className={styles.ctas}>
+          <Link className="ctas" href="/admin">
+            PG
+          </Link>
+        </div>
         <Footer />
       </main>
     </div>
