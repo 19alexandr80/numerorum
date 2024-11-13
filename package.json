@@ -2,6 +2,7 @@
   "name": "numerorum",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://19alexandr80.github.io/numerorum/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
