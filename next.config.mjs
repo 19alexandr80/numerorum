@@ -1,4 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = { base: "/{nemerorum}", plugins: [React()] };
+const nextConfig = { base: "/{nemerorum}" };
 
 export default nextConfig;
