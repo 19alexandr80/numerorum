@@ -29,11 +29,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* <link
-          type="image/x-icon"
-          href="../../public/favicon.ico"
-          rel="shortcut icon"
-        /> */}
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${geistComfort.variable}`}
