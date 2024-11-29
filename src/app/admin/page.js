@@ -15,9 +15,6 @@ export default function Admin() {
         <h2>
           <Link href="/admin/pg">greta tumberg</Link>
         </h2>
-        <h2>
-          <Link href="/admin/pg">tumberg shmumberg</Link>
-        </h2>
       </div>
     </>
   );
