@@ -3,6 +3,9 @@
   display: flex;
   gap: 24px;
   font-family: var(--font-comforter-mono);
+  border-bottom: solid #383838;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* .footer a {
