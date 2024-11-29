@@ -13,10 +13,10 @@ export default function Admin() {
           </Link>
         </h2>
         <h2>
-          <Link href="/admin/greta">greta tumberg</Link>
+          <Link href="/admin/pg">greta tumberg</Link>
         </h2>
         <h2>
-          <Link href="/admin/tumberg">tumberg shmumberg</Link>
+          <Link href="/admin/pg">tumberg shmumberg</Link>
         </h2>
       </div>
     </>
