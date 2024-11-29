@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import style from "./header.module.css";
 
+import img from "../img/numerorum.svg";
 export default function Header() {
   return (
     <>
@@ -12,7 +13,7 @@ export default function Header() {
         </Link>
         <Image
           className={style.logo}
-          src="/numerorum.svg"
+          src={img}
           alt="logo"
           width={120}
           height={120}
