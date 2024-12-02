@@ -1,4 +1,4 @@
-import Dinamik from "../../../component/Dinamik/dinamik";
+import Dinamik from "@/component/Dinamik/dinamik";
 
 export function generateStaticParams() {
   return [{ pg: "present" }, { pg: "past" }, { pg: "future" }];
