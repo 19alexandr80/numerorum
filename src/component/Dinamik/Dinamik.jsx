@@ -10,9 +10,7 @@ export default function Dinamik() {
 
   const pathname = usePathname();
 
-  // console.log(pathname);
   const put = pathname.split("/")[2];
-  // console.log(put, " -put");
 
   return (
     <>
