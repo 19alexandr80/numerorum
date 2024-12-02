@@ -3,6 +3,8 @@
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
+import Head from "next/head";
+
 import styles from "./dinamik.module.css";
 
 export default function Dinamik() {
@@ -13,10 +15,14 @@ export default function Dinamik() {
   const put = pathname.split("/")[2];
 
   return (
-    <>
+    <div>
+      <Head>
+        <title>My page title</title>
+        <meta property="og:title" content="My page title" key="title" />
+      </Head>
       <div className={styles.page}>
         <h1>
-          <Link href="/">PG</Link>
+          <Link href="/">Pages</Link>
         </h1>
         <p className={styles.paragraf}>
           <strong>{put}</strong>
@@ -28,6 +34,6 @@ export default function Dinamik() {
           Click me
         </button> */}
       </div>
-    </>
+    </div>
   );
 }
