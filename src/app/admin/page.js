@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "./page.module.css";
+import styles from "./pages.module.css";
 
 export default function Admin() {
   return (
@@ -13,7 +13,13 @@ export default function Admin() {
           </Link>
         </h2>
         <h2>
-          <Link href="/admin/pg">greta tumberg</Link>
+          <Link href="/admin/past">Past</Link>
+        </h2>
+        <h2>
+          <Link href="/admin/present">Present</Link>
+        </h2>
+        <h2>
+          <Link href="/admin/future">Future</Link>
         </h2>
       </div>
     </>

@@ -10,11 +10,9 @@ export default function Home() {
       <main className={styles.main}>
         <h1>NUMERORUM</h1>
 
-        <div className={styles.ctas}>
-          <Link className="ctas" href="/admin">
-            PGbvgf
-          </Link>
-        </div>
+        <Link href="/admin">
+          <div className={` ${styles.primary}`}>PGbvgf</div>
+        </Link>
       </main>
     </div>
   );
