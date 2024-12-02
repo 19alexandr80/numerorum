@@ -3,7 +3,7 @@
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
-import Head from "next/head";
+// import Head from "next/head";
 
 import styles from "./dinamik.module.css";
 
@@ -16,10 +16,10 @@ export default function Dinamik() {
 
   return (
     <div>
-      <Head>
+      {/* <Head>
         <title>My page title</title>
         <meta property="og:title" content="My page title" key="title" />
-      </Head>
+      </Head> */}
       <div className={styles.page}>
         <h1>
           <Link href="/">Pages</Link>
