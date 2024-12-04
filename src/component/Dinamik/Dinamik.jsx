@@ -16,24 +16,21 @@ export default function Dinamik() {
 
   return (
     <div>
-      {/* <Head>
-        <title>My page title</title>
-        <meta property="og:title" content="My page title" key="title" />
-      </Head> */}
-      <div className={styles.page}>
-        <h1>
-          <Link href="/">Pages</Link>
-        </h1>
-        <p className={styles.paragraf}>
-          <strong>{put}</strong>
-        </p>
-        <h2>
-          <Link href="/admin">adminADMIN</Link>
-        </h2>
-        {/* <button type="button" onClick={() => router.push("/")}>
+      <p className={styles.paragraf}>
+        <strong>{put}</strong>
+      </p>
+      <h2>
+        <Link href="/admin">adminADMIN</Link>
+      </h2>
+      {/* <button type="button" onClick={() => router.push("/")}>
           Click me
         </button> */}
-      </div>
     </div>
   );
+}
+{
+  /* <Head>
+  <title>My page title</title>
+  <meta property="og:title" content="My page title" key="title" />
+</Head>; */
 }
